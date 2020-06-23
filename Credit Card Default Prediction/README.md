@@ -7,7 +7,7 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for A
 ### Project Structure
 This project has four major parts :
 1. model.py - This contains code fot our Machine Learning model to predict Credit Card Default based on training data in 'default.csv' file.
-2. app.py - This contains Flask APIs that receives details through GUI or API calls, computes the precited value based on our model and returns it.
+2. app.py - This contains Flask APIs that receives details through GUI or API calls, computes the predicted value based on our model and returns it.
 3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
 4. templates - This folder contains the HTML template to allow user to enter detail and displays the Credit Card Default Prediction.
 
